@@ -63,6 +63,8 @@ cat << EOF > /etc/config.json
 }		
 EOF
 
+cat /etc/config.json
+
 # start tor and v2ray
 nohup tor &
 v2ray -config /etc/config.json
